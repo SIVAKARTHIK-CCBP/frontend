@@ -10,7 +10,7 @@ const FormAdd: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-      const response = await fetch('https:// https://backend-p87m.onrender.com/api/todos', {
+      const response = await fetch('https://backend-p87m.onrender.com/api/todos', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
